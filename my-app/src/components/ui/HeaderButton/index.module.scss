@@ -1,0 +1,27 @@
+.btn {
+  position: relative;
+  width: 150px;
+  height: 38px;
+  margin: 10px;
+  font: 500 18px Calibri;
+  padding-left: 25px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+&Active {
+   @extend .btn;
+   background: blue;
+   color: white;
+  img {
+    filter: none!important;
+  }
+}
+img {
+  position: absolute;
+  width: 23px;
+  left: 12px;
+  top: 7px;
+  filter: brightness(0) invert(9%) sepia(100%) saturate(6869%) hue-rotate(230deg) brightness(100%) contrast(100%);
+}
+}

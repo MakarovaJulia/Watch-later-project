@@ -1,0 +1,45 @@
+body{
+    font-family: SF Pro Text;
+    box-sizing: border-box;
+}
+
+.link {
+    display: inline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: rgba(60, 60, 67, 0.6);
+}
+
+link{
+
+}
+
+.signUp{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.signUpContainer{
+    height: 275px;
+    justify-content: center;
+    align-items: center;
+}
+
+.authLogo{
+    margin-bottom: 111px;
+}
+
+.hint {
+    color: red;
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 15px;
+    font-family: SF Pro Text;
+}

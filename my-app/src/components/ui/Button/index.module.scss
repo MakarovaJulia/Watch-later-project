@@ -1,0 +1,19 @@
+.enterBtn {
+    width: 149px;
+    height: 50px;
+    background: rgba(116, 116, 128, 0.08);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    border-radius: 25px;
+    color: blue;
+    border: 3px solid blue;
+    cursor: pointer;
+    margin-bottom: 52px;
+    &:disabled {
+        background: lightgrey;
+        color: gray;
+        border: none;
+    }
+}
